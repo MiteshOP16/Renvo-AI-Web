@@ -12,6 +12,11 @@ export default defineConfig(({ mode }) => ({
       "renvo-ai.onrender.com"
     ],
   },
+  preview: {
+    host: true,
+    port: 8080,
+    allowedHosts: ["renvo-ai.onrender.com"],
+  },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
