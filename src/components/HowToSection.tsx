@@ -6,15 +6,15 @@ const HowToSection = () => {
   const steps = [
     {
       title: "Upload Your Data",
-      description: "Connect your files, databases, or data sources in seconds. Our AI instantly begins analyzing structure, patterns, and quality.",
+      description: "Easily upload your datasets in various formats (CSV, Excel, JSON) through our secure interface.",
     },
     {
-      title: "Detect & Fix Issues",
-      description: "The agent automatically identifies missing values, duplicates, inconsistencies, and anomalies — then cleans them intelligently.",
+      title: "Choose Machine learning Algorithms and hyperparameters",
+      description: "Select from a range of powerful machine learning algorithms and customize hyperparameters to fit your specific data cleaning needs.",
     },
     {
-      title: "Download Clean, Ready Data",
-      description: "Export high-quality, analysis-ready data or push it directly to your analytics and AI pipelines.",
+      title: "See Evaluation Metrics and Learn from Feedback",
+      description: "Evaluate the effectiveness of the cleaning process with comprehensive metrics and provide feedback to continuously improve the model's performance.",
     },
   ];
 
@@ -40,11 +40,11 @@ const HowToSection = () => {
 
           {/* Content Side */}
           <div>
-            <p className="section-label mb-4">OPEN MANUAL CLEANING STUDIO</p>
+            <p className="section-label mb-4">Learn Machine Learning with RenvoAI</p>
             <h2 className="section-title mb-8">
-              How to <span className="text-gradient">clean</span>
+              How to <span className="text-gradient">build</span>
               <br />
-              <span className="text-gradient">Confidential</span> Data
+              <span className="text-gradient">ML</span> Models
             </h2>
 
             <div className="space-y-8">
@@ -70,7 +70,7 @@ const HowToSection = () => {
 
             <a href="https://cleaningagent2.streamlit.app/" target="_blank" rel="noopener noreferrer">
               <Button className="btn-primary mt-10 group">
-                  Start Cleaning Now
+                  Start building Now
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
