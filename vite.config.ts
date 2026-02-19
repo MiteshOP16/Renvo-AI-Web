@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => ({
     ],
   },
   preview: {
-    host: "https://renvo-ai.onrender.com",
+    host: "renvo-ai.onrender.com",
     port: 8080,
     allowedHosts: ["renvo-ai.onrender.com"],
   },
