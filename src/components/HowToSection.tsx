@@ -68,7 +68,7 @@ const HowToSection = () => {
               ))}
             </div>
 
-            <a href="https://cleaningagent2.streamlit.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://ml-playground-k2ub.onrender.com" target="_blank" rel="noopener noreferrer">
               <Button className="btn-primary mt-10 group">
                   Start building Now
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
